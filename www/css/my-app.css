@@ -1,0 +1,11 @@
+#id :before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    left: 0;
+    top: -90px;
+    border-bottom: 90px solid #fff;
+    border-right: 768px solid rgba(255, 255, 255, 0);
+    -moz-transform: scale(.9999);
+}
