@@ -39,10 +39,9 @@ function initMap() {
         navigator.geolocation.getCurrentPosition(function (position) {
             initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
             var mapOptions = {
-                streetViewControl:false,
                 // How zoomed in you want the map to start at (always required)
                 zoom: 16,
-
+                disableDefaultUI: true,
                 // The latitude and longitude to center the map (always required)
                 center: initialLocation, // bucharest
 
